@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> CSS Border</title>
+	<style>
+		p{
+			color: green;
+		}
+		#dotted{
+			border: 6px dotted deeppink;
+		}
+		#dashed{
+			border: 6px dashed red;
+		}
+		#solid{
+			border: 3px solid;
+		}
+		#double{
+			border: 10px double blue;
+		}
+		#groove{
+			border: 10px groove red;
+		}
+		#inset{
+			border: 15px inset red;
+		}
+		#outset{
+			border: 15px outset red;
+		}
+		#ridge{
+			border: 19px ridge red
+		}
+		#none{
+			border: 1px none black;
+		}
+		#hidden{
+			bordder: 1px hidden solid black;
+		}
+		#ddsd{
+			border-style:dotted dashed solid double;
+			border-width: 10px;
+			border-color: red;
+			
+		}
+		h3{
+			border-bottom: 4px outset chocolate;
+
+		}
+		h2{
+			border-style: dotted;
+			border-width: 10px 5px 15px 7px;
+			border-color: lightpink palevioletred deeppink red;
+		}
+		#container{
+			height: 400px;
+			width: 400px;
+			background-color: yellow;
+			border-radius: 50px;
+		}
+		#sri{
+			height: 400px;
+			width: 400px;
+			background-color: lightpink;
+			border-radius: 200px;
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="container">
+	</div><br>
+	<div id="sri"></div>
+
+	<p id='dotted'> This is a dotted paragraph</p>
+	<p id='dashed'>This is a dashed paragraph</p>
+	<p id='solid'>This is a solid paragraph</p>
+	<p id='double'>This is double paragraph</p>
+	<p id='groove'>This is a groove paragraph. This is also looks like inset & outset but slight difference</p>
+	<p id='inset'>This is a inset paragraph. This will be used in the heading</p>
+	<p id='outset'>This is a outset paragraph. This will be used in the heading</p>
+	<p id='none'>There is no border here</p>
+	<p id='hidden'>There is a paragraph in it but the paragraph will  be hidden</p>
+	<p id='ddsd'>This is a dotted dashed solid double paragraph we can also change the styles in between them</p>
+	<p id='ridge'>This is a ridge paragraph. This will be used in the heading</p>
+
+	<br><br>
+	<h3>only gives the border that we are mentioning</h3>
+	<h2>This is the clock-wise , we can give color and width clock wisely</h2>
+
+</body>
+</html>
